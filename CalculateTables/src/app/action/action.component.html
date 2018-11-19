@@ -1,0 +1,8 @@
+
+<ng-form>
+  <select title="Math action" [(value)]="selected">
+    <option *ngFor="let action of actions" [value]="action.value">
+      {{action.viewValue}}
+    </option>
+  </select>
+</ng-form>
